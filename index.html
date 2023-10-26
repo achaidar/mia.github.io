@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Tailwind Card Image Zoom-in</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="bg-gray-200">
+    <div class="p-4 m-8 w-80 bg-white shadow-md rounded-xl">
+      <picture class="rounded-lg overflow-hidden block">
+        <img
+          class="hover:scale-125 ease-in duration-150"
+          src="https://picsum.photos/360/240"
+        />
+      </picture>
+
+      <h1 class="mt-4 mb-2 text-xl font-bold">Judul Card di sini</h1>
+      <p class="text-sm text-gray-600">
+        Keterangan pendek tentang card di sini. Biasanya panjangnya dua sampai
+        tiga baris, biar terlihat rapi.
+      </p>
+    </div>
+  </body>
+</html>
